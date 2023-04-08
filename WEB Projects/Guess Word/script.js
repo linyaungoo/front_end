@@ -6,9 +6,9 @@ const element = document.getElementById('check');
         const inputData = input.value;
         console.log(inputData);
         if(random_num < inputData){
-            document.getElementById("show_data").innerHTML = "Unknown number is less than ${inputData}";
+            document.getElementById("show_data").innerHTML = "Unknown number is less than "+inputData;
         }else if(random_num > inputData){
-            document.getElementById("show_data").innerHTML = "Unknown number is greater than ${inputData}";
+            document.getElementById("show_data").innerHTML = "Unknown number is greater than "+inputData;
         }else if(random_num==inputData){
             document.getElementById("show_data").innerHTML = " You Win!";
         }console.log(random_num);
