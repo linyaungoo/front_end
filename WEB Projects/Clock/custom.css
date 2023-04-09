@@ -3,15 +3,28 @@
 }
 html,body{
     width: 100%;
+  
 }
 body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    
 }
 time {
     color: paleturquoise;
     font-size: 100px;
     font-weight: 300px;
 }
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.loc_btn{
+    background-color: black;
+    border: none;
+}
+.loc_btn:hover {
+    color: blue;
+  }
