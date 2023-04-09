@@ -1,0 +1,17 @@
+* {
+    font-family: "Roboto";
+}
+html,body{
+    width: 100%;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+time {
+    color: paleturquoise;
+    font-size: 100px;
+    font-weight: 300px;
+}
