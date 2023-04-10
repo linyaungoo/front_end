@@ -1,0 +1,30 @@
+html,
+body {
+    height: 100%;
+    background-image: url('bg.png');
+}
+
+.container {
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header1{
+    font-size: 80px;
+    color: white;
+}
+.header2{
+    font-size: 60px;
+}
+.card1,.card2,.card3,.card4{
+    background-image: url(bg.png);
+}
+.btn-link{
+    font-size: 30px;
+    color: white;
+}
+p{
+    font-size: 24px;
+}
