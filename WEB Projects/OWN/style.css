@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .box{
+    height: 86vh;
+    width: 75%;
+    padding: 0 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: 10;
+    border: 2px solid rgba(255,255,255,0.7);
+    border-radius: 20px;
+    display: flex;
+    backdrop-filter: blur(25px);
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
+}
+/* .container::after{
+    content: '';
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background: #c1d9fb;
+    transform: translate(490px,150px);
+    border-radius: 50%;
+} */
+.container .box nav{
+    height: 7%;
+    width: 95%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px auto;
+    padding: 20px;
+}
+.container .box nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.container .box nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: wheat;
+}
+.container .box nav ul li a:hover{
+    color: #c1d9fb;
+}
+nav .logo{
+    font-size: 35px;
+    color: wheat;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.container .box .contains{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 8%;
+    padding-left: 80px;
+}
+.container .box .contains .section-1{
+    position: relative;
+    width: 40%;
+}
+.contains .section-1 h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    color: wheat;
+}
+.contains .section-1 h3{
+    font-size: 24px;
+    color: #c1d9fb;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.contains .section-1 p{
+    font-size: 18px;
+    color: #505052;
+    margin-bottom: 50px;    
+}
+.contains .section-1 .btn{
+    padding: 15px 20px;
+    background-color: wheat;
+    border: 1px solid wheat;
+    color: black;
+    border-radius: 5px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.contains .section-1 .btn:hover{
+    background-color: black;
+    color: wheat;
+}
+.contains .section-2{
+    width: 40%;
+    margin-right: 50px;
+    
+}
+.contains .section-2 img{
+   
+    border-radius: 50%;
+
+}
+.contains .section-3{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    position: absolute;
+    left: 10px;
+    top:40%;
+}
+.contains .section-3 a i{
+    font-size: 25px;
+    color: wheat;
+    transition: 0.3s;
+}
+.contains .section-3 a i:hover{
+    color: black;
+}
+.container .about{
+    height: 86vh;
+    width: 75%;
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: 10;
+    border: 2px solid rgba(255,255,255,0.7);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+    backdrop-filter: blur(25px);
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
+}
+.container .about h1{
+   color: wheat;
+}
+.container .about .show-skill{
+    display: flex;
+    width: 80%;
+    gap: 30px;
+}
+.container .about .show-skill .paragraph{
+    width: 50%;
+    color: #c1d9fb;
+    text-align: justify;
+    
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 20px;
+}
+.container .about .skill-layout {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .container .about .skill-layout i{
+    font-size: 25px;
+  }
+
+  .container .services{
+    height: 86vh;
+    width: 75%;
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: 10;
+    border: 2px solid rgba(255,255,255,0.7);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    backdrop-filter: blur(25px);
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
+  }
